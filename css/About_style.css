@@ -1,0 +1,340 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Amiri';
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    background-color: black;
+}
+
+/*Navigation styles*/
+#header {
+    position: relative;
+    top: 0;
+    left:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #202222;
+    
+}
+#header > a > img{
+    margin: 10px 50px 0px 210px;
+    width: 22%;
+    border-radius: 0.05in;
+}
+
+#nav {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px 450px 2px 200px;
+}
+
+#nav  li{
+    list-style: none;
+    position: relative;
+    margin-left: 0px;
+    margin-right: 25px;
+}
+#nav li  a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    transition: 1s;
+}
+
+/*-----Navigation hover styles-----*/
+#nav li  a:hover{
+    color: rgb(104, 197, 226);  
+}
+#nav li  a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background:rgb(104, 197, 226);
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+.active{
+    color: rgb(104, 197, 226);
+}
+/*-----Navigation styles end-----*/
+
+/*-----Content styles-----*/
+.trailer{
+    width: 940px;
+}
+
+.content1 {
+    padding: 5px 0px 2px 10px;  /*Add padding for spacing inside the section */
+    margin: 30px 0px 80px 188px;
+}
+
+/* Style for each pair of image and text container */
+.div{
+    border: white solid 1px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+.storyline{
+    margin-left: 10px;
+    max-width: 1150px;
+}
+.content-item {
+    max-width: 1000px;
+    display: inline-block;
+    align-items: center; /* Center items vertically */
+    margin-bottom: 5px; /* Spacing between pairs */
+}
+
+/* Style for images within each pair */
+.content-item img {
+    max-width: 200px; /* Maximum width for images */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 22px; /* Spacing between image and text */
+    margin-left: 10px;
+}
+
+/* Style for text within each pair */
+.content-item h2 {
+    margin: 0; 
+    color: white;
+    padding-left: 10px;
+}
+
+.content-item h3 {
+    margin: 0; 
+    color: white;
+    padding-left: 10px;
+}
+
+/*-----Rating styles-----*/
+.star {
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+}
+
+.star.fixed {
+    cursor: default;
+}
+
+/*-----Review styles-----*/
+
+/* Style the review section container */
+.review-section {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 1140px;
+    font-family: 'Amiri';
+}
+
+/* Style the review section title */
+.review-section h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style the form and its elements */
+#review-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#review-form label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#headline, #review {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#headline:focus, #review:focus {
+    border: 2px solid #007bff; /* Highlight the input fields on focus */
+}
+
+#review {
+    resize: vertical; /* Allow vertical resizing of the review textarea */
+}
+
+/* Style the submit button */
+button[type="button"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+
+.reviews {
+    margin: 55px 0px 0px 180px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    max-width: 800px;
+}
+
+.review {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: black;
+}
+
+.review h4 {
+    font-size: 18px;
+    margin: 0;
+    color: white;
+    font-family: 'Amiri';
+}
+
+.review p {
+    margin: 10px 0;
+    color: white;
+}
+
+.review .timestamp {
+    font-size: 12px;
+    color: #888;
+}
+/*-----Review styles end-----*/
+
+/*-----To top button styles-----*/
+.to-top {
+    background: white;
+    position: fixed;
+    bottom: 16px;
+    right:32px;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:32px;
+    color:#1f1f1f;
+    text-decoration: none;
+    opacity:0;
+    pointer-events: none;
+    transition: all .4s;
+}
+  
+.to-top.active {
+    bottom:32px;
+    pointer-events: auto;
+    opacity:1;
+}
+
+
+/*Footer styles*/
+footer{
+    background: #202222;
+    margin: 10px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.footer1, .footer2{
+    display: block;
+    color: white;
+}
+
+#button_signin{
+    width: 150%;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: orange;
+    border-radius: 0.07in;
+}
+
+#button_signin > a{
+    text-decoration: none;
+    color: black;
+}
+
+#button_signin:hover{
+    background-color: rgb(236, 166, 73);
+}
+#icons{
+    padding-left: 50px;
+}
+
+.footer3{
+    margin-left: 40px;
+}
+
+.footer3 #icons{
+    font-size: 18px;
+    margin-right: 20px;
+    color: white;
+}
+
+.footer3 #copyright{
+    margin-left: 272px;
+    font-size: 12px;
+    color: white;
+}
+/*-----Footer styles-----*/
+
+
+/*-----Responsiveness-----*/
+@media screen and (min-width: 1700px){
+    #nav{
+        margin: 2px 170px 2px 100px;
+    }
+
+    #nav  li{
+        list-style: none;
+        padding: 0 2px;
+        position: relative;
+        margin-left: 5px;
+        margin-right: 12px;
+    }
+
+    #header > a > img{
+        margin: 10px 50px 0px 230px;
+        width: 20%;
+    }
+
+    .content1{
+        margin-left: 400px;
+    }
+}
+
