@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+
+    <!--Head of Page -->
+    <meta charset="UTF-8">
+    <title>FlixHub</title>
+    <meta name="keywords" content="MVDR, About MVDR, mvdr" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Amiri' rel='stylesheet'>
+    <link href="about_style.css" rel="stylesheet">
+    <script src="script.js"></script>
+    
+</head>
+
+<body>
+    <!--Navigation Bar-->
+    <section id ="header"> 
+        <a class="logo" href="Index.html"> <img src = "logo.png" alt = ""></a>
+        
+        <div class="topnav">
+            <ul id="nav">
+                <li ><a class="links" href="index.html">Home</a></li>
+                <li ><a class="" href="https://www.cineplex.com/">Get Tickets</a></li>
+                <li ><a class="links" href="oscars.html">Oscars</a></li>
+                <li ><a class="links" href="index.php">Sign In</a></li>
+                <li ><a class="links" href="toppicks.html">Top Picks</a></li>
+            </ul>
+        </div>
+           
+    </section>
+    <!--Navigation ends-->
+
+    <!--Movie Image and Trailer Section-->
+    <section class="content1 tr_sec">
+        <div style="display: flex;">
+            <div class="div"></div>
+            <h1 style="color: white; margin-left: 13px; margin-bottom: 10px; color: rgb(255, 206, 116);">Animations</h1>
+        </div>
+        <div class="content-item tr_img">
+            <img src="kungFuPanda.jpg" alt="Kung Fu Panda 3" id="image1">
+            <h2>Kung Fu Panda 3</h2>
+        </div>
+        <div class="content-item trailer">
+            <iframe width="920" 
+            height="335" 
+            src="https://www.youtube.com/embed/10r9ozshGVE" 
+            title="Kung Fu Panda 3 | Official Trailer #1" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+    <!--Movie Image and Trailer Section-->
+
+    <!--Movie Storyline Section-->
+    <section class="content1">
+        <div style="display: flex;">
+            <div class="div"></div>
+            <h1 style="color: white; margin-left: 13px; margin-bottom: 10px; color: rgb(255, 206, 116);">Movie Storyline</h1>
+        </div>
+        
+        <div class="storyline">
+            <h2 style="color: white; display: flex;">When Po's long-lost panda father suddenly reappears, the reunited duo travels to a secret panda paradise to meet scores of hilarious new panda characters. But when the supernatural villain Kai begins to sweep across China defeating all the kung fu masters, Po must do the impossible-learn to train a village full of his fun-loving, clumsy brethren to become the ultimate band of Kung Fu Pandas.</h2>
+        </div>
+    </section>
+    <!--Movie Storyline Section-->
+
+    <!--Movie Cast Section-->
+    <section class="content1">
+        <div style="display: flex;">
+            <div class="div"></div>
+            <h1 style="color: white; margin-left: 13px; margin-bottom: 10px; color: rgb(255, 206, 116);">Top Cast</h1>
+        </div>
+        <div class="content-item cast1">
+            <img src="jackblack.jpg" alt="Jack Black" id="image1">
+            <h3>Jack Black (Po-voice)</h3>
+        </div>
+        <div class="content-item cast2">
+            <img src="dustinhoff.jpg" alt="Dustin Hoffman" id="image1">
+            <h3>Dustin Hoffman (Shifu-voice)</h3>
+        </div>
+        <div class="content-item cast3">
+            <img src="jackiechan.jpg" alt="Jackie Chan" id="image1">
+            <h3>Jackie Chan (Monkey-voice)</h3>
+        </div>
+        <div class="content-item cast4">
+            <img src="angelina.jpg" alt="Angelina Jolie" id="image1">
+            <h3>Angelina Jolie (Tigress-voice)</h3>
+        </div>
+        <div class="content-item cast5">
+            <img src="jksimmons.jpg" alt="J.K. Simmons" id="image1">
+            <h3>J.K. Simmons (Kai-voice)</h3>
+        </div>
+    </section>
+    <!--Movie Cast Section-->
+
+    <!--Movie ratings Section-->
+    <section class="content1">
+        <div style="display: flex;">
+            <div class="div"></div>
+            <h1 style="color: white; margin-left: 13px; margin-bottom: 10px; color: rgb(255, 206, 116);">Ratings</h1>
+        </div>
+        <div class="content-item">
+            <div class="rating" id="movieRating">
+                <span id="ratingText" style="color: white; margin-right: 20px; margin-left: 10px; font-size: 30px;">Rate this movie:</span>
+                <span class="star" data-rating="1" onclick="rateMovie(this)">☆</span>
+                <span class="star" data-rating="2" onclick="rateMovie(this)">☆</span>
+                <span class="star" data-rating="3" onclick="rateMovie(this)">☆</span>
+                <span class="star" data-rating="4" onclick="rateMovie(this)">☆</span>
+                <span class="star" data-rating="5" onclick="rateMovie(this)">☆</span>
+                <span class="star" data-rating="6" onclick="rateMovie(this)">☆</span>
+                <span class="star" data-rating="7" onclick="rateMovie(this)">☆</span>
+                <span class="star" data-rating="8" onclick="rateMovie(this)">☆</span>
+                <span class="star" data-rating="9" onclick="rateMovie(this)">☆</span>
+                <span class="star" data-rating="10" onclick="rateMovie(this)">☆</span>
+            </div>
+        </div>
+    </section>
+    <!--Movie ratings Section-->
+
+    <!--Movie review Section-->
+    <section class="content1">
+        <div style="display: flex;">
+            <div class="div"></div>
+            <h1 style="color: white; margin-left: 13px; margin-bottom: 10px; color: rgb(255, 206, 116);">Reviews</h1>
+        </div>
+        <div class="content-item">
+            <div class="review-section">
+                <form id="review-form">
+                    <label for="headline" style="font-size: 20px;">Review Headline:</label>
+                    <input type="text" id="headline" name="headline" required>
+            
+                    <label for="review" style="font-size: 20px;">Your Review:</label>
+                    <textarea id="review" name="review" rows="4" required></textarea>
+            
+                    <button type="button" onclick="submitReview()" style="font-size: 20px;">Submit Review</button>
+                </form>
+            </div>            
+        </div>
+
+        <div id="reviews" class="reviews">
+            <!-- Existing reviews will be added here dynamically -->
+        </div>        
+    </section>
+    <!--Movie review Section-->
+
+    <!--Back to top button-->
+    <a href="#" class="to-top">
+        <img src="up-arrow.png" width="116%">
+    </a>
+    <!--Back to top button ends-->
+
+    <!--Footer Start-->
+    <footer>
+
+        <div class="footer1">
+            <button type="button" id="button_signin" ><a href="index.php">Sign In for more</a></button>
+        </div>
+        <div class="footer2">
+            <a id="icons"><img src="icons8-facebook-100.png"></a>
+            <a id="icons"><img src="icons8-instagram-100.png"></i></a>
+            <a id="icons"><img src="icons8-twitter-100.png"></i></a>
+            <a id="icons"><img src="icons8-youtube-100.png"></i></a>
+        </div>
+        <div class="footer3">
+            <a id="icons" href="">Help</a>
+            <a id="icons" href="">Privacy Policy</a>
+            <a id="icons" href="">Get Our App</a>
+            <a id="icons" href="">Conditions of Use</a></br></br>
+            <a id="copyright">© 2023 by FlixHub.com, Inc.</a>
+        </div>
+       
+    </footer>
+    <!--Footer Ends-->
+
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+
+    <script>
+        let rated = false;
+        
+        //Script for rating
+        function rateMovie(star) {
+            if (!rated) {
+                const rating = parseInt(star.getAttribute("data-rating"));
+                const stars = document.querySelectorAll(".star");
+                const ratingText = document.getElementById("ratingText");
+        
+                for (let i = 0; i < stars.length; i++) {
+                    if (i < rating) {
+                        stars[i].textContent = "★"; // Change the star character to a filled star.
+                        stars[i].style.color = "orange"; // Change the color of rated stars to orange.
+                    } else {
+                        stars[i].textContent = "☆"; // Change the star character to an empty star.
+                        stars[i].style.color = "gray"; // Change the color of unrated stars to gray.
+                    }
+                }
+        
+                ratingText.textContent = `Your Rating: ${rating}/10`;
+                rated = true;
+            }
+        }
+        //Script for rating ends
+
+        //Script for review
+        function submitReview() {
+            const headline = document.getElementById("headline").value;
+            const reviewText = document.getElementById("review").value;
+
+            if (headline && reviewText) {
+                const reviewContainer = document.getElementById("reviews");
+                const reviewElement = document.createElement("div");
+                reviewElement.classList.add("review");
+
+                const reviewHeadline = document.createElement("h4");
+                reviewHeadline.textContent = headline;
+
+                const reviewContent = document.createElement("p");
+                reviewContent.textContent = reviewText;
+
+                reviewElement.appendChild(reviewHeadline);
+                reviewElement.appendChild(reviewContent);
+                reviewContainer.appendChild(reviewElement);
+
+                // Clear the form
+                document.getElementById("headline").value = "";
+                document.getElementById("review").value = "";
+            } else {
+                alert("Both headline and review text are required.");
+             }
+        }
+        //Script for review ends
+
+        //Script for handeling movie view request
+        $(document).ready(function() {
+        // Check if movie information is in localStorage
+        const movieTitle = localStorage.getItem("movieTitle");
+        const movieImage = localStorage.getItem("movieImage");
+        const movieTrailer = localStorage.getItem("movieTrailer");
+        const movieHeadline = localStorage.getItem("movieHeadline");
+        const movieStoryline = localStorage.getItem("movieStoryline");
+        const movieCast = JSON.parse(localStorage.getItem("movieCast"));
+
+        if (movieTitle && movieImage && movieTrailer && movieHeadline && movieStoryline && movieCast) {
+            // Update the content in about.html with the movie information
+            $("#image1").attr("src", movieImage);
+            $(".tr_sec h2").text(movieTitle);
+            $(".trailer iframe").attr("src", movieTrailer);
+            $(".tr_sec h1").text(movieHeadline);
+            $(".storyline h2").text(movieStoryline);
+            $(".cast1 h3").text(movieCast.cast1);
+            $(".cast1 img").attr("src", movieCast['cast1Image']); // Update cast image
+            $(".cast2 h3").text(movieCast.cast2);
+            $(".cast2 img").attr("src", movieCast['cast2Image']); // Update cast image
+            $(".cast3 h3").text(movieCast.cast3);
+            $(".cast3 img").attr("src", movieCast['cast3Image']); // Update cast image
+            $(".cast4 h3").text(movieCast.cast4);
+            $(".cast4 img").attr("src", movieCast['cast4Image']); // Update cast image
+            $(".cast5 h3").text(movieCast.cast5);
+            $(".cast5 img").attr("src", movieCast['cast5Image']);
+        }
+
+        // Clear the movie information from localStorage
+        localStorage.removeItem("movieTitle");
+        localStorage.removeItem("movieImage");
+        localStorage.removeItem("movieTrailer");
+        localStorage.removeItem("movieHeadline");
+        localStorage.removeItem("movieStoryline");
+        localStorage.removeItem("movieCast");
+        });
+        //Script for handeling movie view request ends
+    </script>
+</body>
+</html>

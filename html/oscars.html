@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+
+    <!--Head of Page -->
+    <meta charset="UTF-8">
+    <title>FlixHub</title>
+    <meta name="keywords" content="MVDR, About MVDR, mvdr" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Amiri' rel='stylesheet'>
+    <link href="oscars_style.css" rel="stylesheet">
+    
+</head>
+
+<body>
+    
+    <!--Navigation Starts-->
+    <section id ="header"> 
+        <a class="logo" href="Index.html"> <img src = "logo.png" alt = ""></a>
+
+        
+        <div class="topnav">
+        
+            <ul id="nav">
+                <input type="text" name="" id="find" placeholder="Search movie..." onkeyup="search()">
+                <li ><a class="links" href="index.html">Home</a></li>
+                <li ><a class="" href="https://www.cineplex.com/">Get Tickets</a></li>
+                <li ><a class="links active" href="oscars.html">Oscars</a></li>
+                <li ><a class="links" href="index.php">Sign In</a></li>
+                <li ><a class="links" href="toppicks.html">Top Picks</a></li>
+            </ul>
+        </div>
+           
+    </section>
+    <!--Navigation ends-->
+
+    <!--SLideshow Starts-->
+    <section class="content">
+        <img id="slide" src="carousal movies/avengers.jpg" alt="" width="90%">
+        <div id="slides"> 
+            <a href="about.html" class="movie-link" data-title="Avengers Endgame" data-image="carousal movies/avengersend.jpg" 
+                data-storyline="After the devastating events of Avengers: Infinity War (2018), the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos's actions and undo the chaos to the universe, no matter what consequences may be in store, and no matter who they face..."
+                data-trailer="https://www.youtube.com/embed/TcMBFSGVi1c"
+                data-headline="Action"
+                data-cast1="Robert Downey Jr." 
+                data-cast1-image="Cast/rdj.jpg"
+                data-cast2="Chris Evans"
+                data-cast2-image="Cast/chrisevans.jpg" 
+                data-cast3="Mark Ruffalo"
+                data-cast3-image="Cast/markruffalo.webp" 
+                data-cast4="Chris Hemsworth"
+                data-cast4-image="Cast/chrishem.webp" 
+                data-cast5="Paul Rudd"
+                data-cast5-image="Cast/paulrudd.webp"><img src="carousal movies/avengers.jpg" alt="Avengers" width="90%"></a>
+
+            <a href="about.html" class="movie-link" data-title="Inception" data-image="carousal movies/inceptions.jpg" 
+            data-storyline="Dom Cobb is a skilled thief, the absolute best in the dangerous art of extraction, stealing valuable secrets from deep within the subconscious during the dream state, when the mind is at its most vulnerable. Cobb's rare ability has made him a coveted player in this treacherous new world of corporate espionage, but it has also made him an international fugitive and cost him everything he has ever loved. Now Cobb is being offered a chance at redemption. One last job could give him his life back but only if he can accomplish the impossible, inception. Instead of the perfect heist, Cobb and his team of specialists have to pull off the reverse: their task is not to steal an idea, but to plant one. If they succeed, it could be the perfect crime. But no amount of careful planning or expertise can prepare the team for the dangerous enemy that seems to predict their every move. An enemy that only Cobb could have seen coming."
+            data-trailer="https://www.youtube.com/embed/Jvurpf91omw"
+            data-headline="Thriller"
+            data-cast1="Leonardo DiCaprio" 
+            data-cast1-image="Cast/leonardo.webp"
+            data-cast2="Joseph Gordon-Levitt"
+            data-cast2-image="Cast/josephgordon.jpeg" 
+            data-cast3="Ken Watanabe"
+            data-cast3-image="Cast/ken.webp" 
+            data-cast4="Tom Hardy"
+            data-cast4-image="Cast/tomhardy.webp" 
+            data-cast5="Cillian Murphy"
+            data-cast5-image="Cast/cillian.jpg"><img src="carousal movies/inception.jpg" alt="Inception" width="90%"></a>
+
+            <img src="movie images/wall-eslide.jpg" alt="">
+
+            <a href="about.html" class="movie-link" data-title="Forrest Gump" data-image="carousal movies/gumps.jpg" 
+                data-storyline="Forrest Gump is a simple man with a low I.Q. but good intentions. He is running through childhood with his best and only friend Jenny. His 'mama' teaches him the ways of life and leaves him to choose his destiny. Forrest joins the army for service in Vietnam, finding new friends called Dan and Bubba, he wins medals, creates a famous shrimp fishing fleet, inspires people to jog, starts a ping-pong craze, creates the smiley, writes bumper stickers and songs, donates to people and meets the president several times. However, this is all irrelevant to Forrest who can only think of his childhood sweetheart Jenny Curran, who has messed up her life. Although in the end all he wants to prove is that anyone can love anyone."
+                data-trailer="https://www.youtube.com/embed/XHhAG-YLdk8"
+                data-headline="Drama"
+                data-cast1="Tom Hanks" 
+                data-cast1-image="Cast/tomhanks.jpg"
+                data-cast2="Robin Wright"
+                data-cast2-image="Cast/robinw.jpg" 
+                data-cast3="Sally Field"
+                data-cast3-image="Cast/sallyf.jpg" 
+                data-cast4="Gary Sinise"
+                data-cast4-image="Cast/garys.webp" 
+                data-cast5="Haley Joel Osment"
+                data-cast5-image="Cast/haley.jpg"><img src="carousal movies/gump.jpg" alt="Forrest Gump" width="90%"></a>
+        </div>
+    </section>
+    <!--SLideshow Ends-->
+    
+    <!--Content of Movies Starts-->
+    <section class="content1">
+        <div style="display: flex;">
+            <div class="div"></div>
+            <h1 style="color: white; margin-left: 13px; margin-bottom: 10px; color: rgb(255, 206, 116);">Academy Awards Winners and Nominee</h1>
+        </div>
+        <div class="content-item" >
+            <a href="about.html" class="movie-link" data-title="Intersteller" data-image="carousal movies/interstellars.jpg" 
+            data-storyline="Earth's future has been riddled by disasters, famines, and droughts. There is only one way to ensure mankind's survival: Interstellar travel. A newly discovered wormhole in the far reaches of our solar system allows a team of astronauts to go where no man has gone before, a planet that may have the right environment to sustain human life."
+            data-trailer="https://www.youtube.com/embed/zSWdZVtXT7E"
+            data-headline="Science-Fiction"
+            data-cast1="Matthew McConaughey" 
+            data-cast1-image="Cast/matthewmc.jpg"
+            data-cast2="Anne Hathaway"
+            data-cast2-image="Cast/anne.webp" 
+            data-cast3="Jessica Chastain"
+            data-cast3-image="Cast/jessica.webp" 
+            data-cast4="Michael Caine"
+            data-cast4-image="Cast/michael.webp" 
+            data-cast5="David Gyasi"
+            data-cast5-image="Cast/david.jpg"><img src="carousal movies/interstellars.jpg" alt="Intersteller" width="90%"></a>
+            <h3>Intersteller</h3>
+        </div>
+        <div class="content-item">
+            <a href="about.html" class="movie-link" data-title="Inception" data-image="carousal movies/inceptions.jpg" 
+            data-storyline="Dom Cobb is a skilled thief, the absolute best in the dangerous art of extraction, stealing valuable secrets from deep within the subconscious during the dream state, when the mind is at its most vulnerable. Cobb's rare ability has made him a coveted player in this treacherous new world of corporate espionage, but it has also made him an international fugitive and cost him everything he has ever loved. Now Cobb is being offered a chance at redemption. One last job could give him his life back but only if he can accomplish the impossible, inception. Instead of the perfect heist, Cobb and his team of specialists have to pull off the reverse: their task is not to steal an idea, but to plant one. If they succeed, it could be the perfect crime. But no amount of careful planning or expertise can prepare the team for the dangerous enemy that seems to predict their every move. An enemy that only Cobb could have seen coming."
+            data-trailer="https://www.youtube.com/embed/Jvurpf91omw"
+            data-headline="Thriller"
+            data-cast1="Leonardo DiCaprio" 
+            data-cast1-image="Cast/leonardo.webp"
+            data-cast2="Joseph Gordon-Levitt"
+            data-cast2-image="Cast/josephgordon.jpeg" 
+            data-cast3="Ken Watanabe"
+            data-cast3-image="Cast/ken.webp" 
+            data-cast4="Tom Hardy"
+            data-cast4-image="Cast/tomhardy.webp" 
+            data-cast5="Cillian Murphy"
+            data-cast5-image="Cast/cillian.jpg"><img src="carousal movies/inceptions.jpg" alt="Inception" width="90%"></a>
+            <h3>Inception</h3>
+        </div>
+        <div class="content-item">
+            <a href="about.html" class="movie-link" data-title="Forrest Gump" data-image="carousal movies/gumps.jpg" 
+            data-storyline="Forrest Gump is a simple man with a low I.Q. but good intentions. He is running through childhood with his best and only friend Jenny. His 'mama' teaches him the ways of life and leaves him to choose his destiny. Forrest joins the army for service in Vietnam, finding new friends called Dan and Bubba, he wins medals, creates a famous shrimp fishing fleet, inspires people to jog, starts a ping-pong craze, creates the smiley, writes bumper stickers and songs, donates to people and meets the president several times. However, this is all irrelevant to Forrest who can only think of his childhood sweetheart Jenny Curran, who has messed up her life. Although in the end all he wants to prove is that anyone can love anyone."
+            data-trailer="https://www.youtube.com/embed/XHhAG-YLdk8"
+            data-headline="Drama"
+            data-cast1="Tom Hanks" 
+            data-cast1-image="Cast/tomhanks.jpg"
+            data-cast2="Robin Wright"
+            data-cast2-image="Cast/robinw.jpg" 
+            data-cast3="Sally Field"
+            data-cast3-image="Cast/sallyf.jpg" 
+            data-cast4="Gary Sinise"
+            data-cast4-image="Cast/garys.webp" 
+            data-cast5="Haley Joel Osment"
+            data-cast5-image="Cast/haley.jpg"><img src="carousal movies/gumps.jpg" alt="Forrest Gump" width="90%"></a>
+            <h3>Forrest Gump</h3>
+        </div>
+        <div class="content-item">
+            <a href="about.html" class="movie-link" data-title="The Sixth Sense" data-image="movie images/sixth.jpg" 
+            data-storyline="Malcom Crowe (Bruce Willis) is a child psychologist who receives an award on the same night that he is visited by a very unhappy ex-patient. After this encounter, Crowe takes on the task of curing a young boy with the same ills as the ex-patient (Donnie Wahlberg) . This boy 'sees dead people'. Crowe spends a lot of time with the boy much to the dismay of his wife (Olivia Williams). Cole's mom (Toni Collette) is at her wit's end with what to do about her son's increasing problems. Crowe is the boy's only hope."
+            data-trailer="https://www.youtube.com/embed/3-ZP95NF_Wk"
+            data-headline="Animations"
+            data-cast1="Bruce Willis" 
+            data-cast1-image="Cast/brucew.jpg"
+            data-cast2="Haley Joel Osment"
+            data-cast2-image="Cast/haley.jpg" 
+            data-cast3="Toni Collette"
+            data-cast3-image="Cast/tonic.webp" 
+            data-cast4="Olivia Williams"
+            data-cast4-image="Cast/oliviaw.jpg" 
+            data-cast5="Trevor Morgan"
+            data-cast5-image="Cast/trevorm.jpg"><img src="movie images/sixth.jpg" alt="The Sixth Sense" id="image1"></a>
+            <h3>The Sixth Sense</h3>
+        </div>
+        <div class="content-item">
+            <a href="about.html" class="movie-link" data-title="The Dark Knight" data-image="movie images/darkknight.jpg" 
+            data-storyline="Set within a year after the events of Batman Begins (2005), Batman, Lieutenant James Gordon, and new District Attorney Harvey Dent successfully begin to round up the criminals that plague Gotham City, until a mysterious and sadistic criminal mastermind known only as 'The Joker' appears in Gotham, creating a new wave of chaos. Batman's struggle against The Joker becomes deeply personal, forcing him to 'confront everything he believes' and improve his technology to stop him. A love triangle develops between Bruce Wayne, Dent, and Rachel Dawes."
+            data-trailer="https://www.youtube.com/embed/EXeTwQWrcwY"
+            data-headline="Christopher Nolan Movies"
+            data-cast1="Christian Bale" 
+            data-cast1-image="Cast/christianb.jpg"
+            data-cast2="Heath Ledger"
+            data-cast2-image="Cast/heathl.jpg" 
+            data-cast3="Cillian Murphy"
+            data-cast3-image="Cast/cillian.jpg" 
+            data-cast4="Michael Caine"
+            data-cast4-image="Cast/michael.webp" 
+            data-cast5="Morgan Freeman"
+            data-cast5-image="Cast/morganf.webp"><img src="movie images/darkknight.jpg" alt="The Dark Knight" id="image1"></a>
+            <h3>The Dark Knight</h3>
+        </div>
+        <div class="content-item">
+            <a href="about.html" class="movie-link" data-title="Fight Club" data-image="movie images/fc.jpg" 
+            data-storyline="A nameless first person narrator (Edward Norton) attends support groups in attempt to subdue his emotional state and relieve his insomniac state. When he meets Marla (Helena Bonham Carter), another fake attendee of support groups, his life seems to become a little more bearable. However when he associates himself with Tyler (Brad Pitt) he is dragged into an underground fight club and soap making scheme. Together the two men spiral out of control and engage in competitive rivalry for love and power."
+            data-trailer="https://www.youtube.com/embed/qtRKdVHc-cE"
+            data-headline="Animations"
+            data-cast1="Brad Pitt" 
+            data-cast1-image="Cast/bradp.jpg"
+            data-cast2="Edward Norton"
+            data-cast2-image="Cast/edwardn.webp" 
+            data-cast3="Helena Bonham Carter"
+            data-cast3-image="Cast/helenab.jpg" 
+            data-cast4="Holt McCallany"
+            data-cast4-image="Cast/holtm.webp" 
+            data-cast5="Eion Bailey"
+            data-cast5-image="Cast/eionb.jpg"><img src="movie images/fc.jpg" alt="Fight Club" id="image1"></a>
+            <h3>Fight Club</h3>
+        </div>
+        <div class="content-item">
+            <a href="about.html" class="movie-link" data-title="Se7en" data-image="movie images/seven.jpg" 
+            data-storyline="A film about two homicide detectives' (Morgan Freeman and Brad Pitt) desperate hunt for a serial killer who justifies his crimes as absolution for the world's ignorance of the Seven Deadly Sins. The movie takes us from the tortured remains of one victim to the next as the sociopathic 'John Doe' (Kevin Spacey) sermonizes to Detectives Somerset and Mills -- one sin at a time. The sin of Gluttony comes first and the murderer's terrible capacity is graphically demonstrated in the dark and subdued tones characteristic of film noir. The seasoned and cultured but jaded Somerset researches the Seven Deadly Sins in an effort to understand the killer's modus operandi while the bright but green and impulsive Detective Mills (Pitt) scoffs at his efforts to get inside the mind of a killer..."
+            data-trailer="https://www.youtube.com/embed/znmZoVkCjpI"
+            data-headline="Animations"
+            data-cast1="Morgan Freeman" 
+            data-cast1-image="Cast/morganf.webp"
+            data-cast2="Brad Pitt"
+            data-cast2-image="Cast/bradp.jpg" 
+            data-cast3="Kevin Spacey"
+            data-cast3-image="Cast/kevins.webp" 
+            data-cast4="Gwyneth Paltrow"
+            data-cast4-image="Cast/gwynethp.jpg" 
+            data-cast5="John Cassini"
+            data-cast5-image="Cast/johnc.webp"><img src="movie images/seven.jpg" alt="Se7en" id="image1"></a>
+            <h3>Se7en</h3>
+        </div>
+        <div class="content-item">
+            <a href="about.html" class="movie-link" data-title="Shawshank Redemption" data-image="movie images/shawshank.jpg" 
+            data-storyline="Chronicles the experiences of a formerly successful banker as a prisoner in the gloomy jailhouse of Shawshank after being found guilty of a crime he did not commit. The film portrays the man's unique way of dealing with his new, torturous life; along the way he befriends a number of fellow prisoners, most notably a wise long-term inmate named Red."
+            data-trailer="https://www.youtube.com/embed/PLl99DlL6b4"
+            data-headline="Thriller and Mysteries"
+            data-cast1="Tim Robbins" 
+            data-cast1-image="Cast/timr.jpg"
+            data-cast2="Morgan Freeman"
+            data-cast2-image="Cast/morganf.webp" 
+            data-cast3="Clancy Brown"
+            data-cast3-image="Cast/clancyb.jpg" 
+            data-cast4="Bob Gunton"
+            data-cast4-image="Cast/bobg.jpg" 
+            data-cast5="William Sadler"
+            data-cast5-image="Cast/williams.jpg"><img src="movie images/shawshank.jpg" alt="Shawshank Redemption" id="image1"></a>
+            <h3>Shawshank Redemption</h3>
+        </div>
+        <div class="content-item">
+            <a href="about.html" class="movie-link" data-title="Memento" data-image="movie images/memento.jpg" 
+            data-storyline="Memento chronicles two separate stories of Leonard, an ex-insurance investigator who can no longer build new memories, as he attempts to find the murderer of his wife, which is the last thing he remembers. One story line moves forward in time while the other tells the story backwards revealing more each time."
+            data-trailer="https://www.youtube.com/embed/4CV41hoyS8A"
+            data-headline="Christopher Nolan Movies"
+            data-cast1="Guy Pearce" 
+            data-cast1-image="Cast/guyp.jpg"
+            data-cast2="Carrie-Anne Moss"
+            data-cast2-image="Cast/carriea.jpg" 
+            data-cast3="Joe Pantoliano"
+            data-cast3-image="Cast/joep.jpg" 
+            data-cast4="Mark Boone Junior"
+            data-cast4-image="Cast/markb.jpg" 
+            data-cast5="Jorja Fox"
+            data-cast5-image="Cast/jorjaf.jpg"><img src="movie images/memento.jpg" alt="Memento" id="image1"></a>
+            <h3>Memento</h3>
+        </div>
+        <div class="content-item">
+            <a href="about.html" class="movie-link" data-title="The Prestige" data-image="movie images/prestige.jpg" 
+            data-storyline="In the end of the nineteenth century, in London, Robert Angier, his beloved wife Julia McCullough, and Alfred Borden are friends and assistants of a magician. When Julia accidentally dies during a performance, Robert blames Alfred for her death, and they become enemies. Both become famous and rival magicians, sabotaging the performance of the other on the stage. When Alfred performs a successful trick, Robert becomes obsessed trying to disclose the secret of his competitor with tragic consequences."
+            data-trailer="https://www.youtube.com/embed/RLtaA9fFNXU"
+            data-headline="Christopher Nolan Movies"
+            data-cast1="Christian Bale" 
+            data-cast1-image="Cast/christianb.jpg"
+            data-cast2="Hugh Jackman"
+            data-cast2-image="Cast/hughj.jpg" 
+            data-cast3="Scarlett Johansson"
+            data-cast3-image="Cast/scarlettj.jpg" 
+            data-cast4="Michael Caine"
+            data-cast4-image="Cast/michael.webp" 
+            data-cast5="Rebecca Hall"
+            data-cast5-image="Cast/rebeccah.jpg"><img src="movie images/prestige.jpg" alt="The Prestige" id="image1"></a>
+            <h3>The Prestige</h3>
+        </div>
+        <div class="content-item">
+            <a href="about.html" class="movie-link" data-title="Tenet" data-image="movie images/tenet.jpg" 
+            data-storyline="In a twilight world of international espionage, an unnamed CIA operative, known as The Protagonist, is recruited by a mysterious organization called Tenet to participate in a global assignment that unfolds beyond real time. The mission: prevent Andrei Sator, a renegade Russian oligarch with precognitive abilities, from starting World War III. The Protagonist will soon master the art of 'time inversion' as a way of countering the threat that is to come."
+            data-trailer="https://www.youtube.com/embed/LdOM0x0XDMo"
+            data-headline="Christopher Nolan Movies"
+            data-cast1="John David Washington" 
+            data-cast1-image="Cast/johnd.jpg"
+            data-cast2="Robert Pattinson"
+            data-cast2-image="Cast/robertp.jpg" 
+            data-cast3="Elizabeth Debicki"
+            data-cast3-image="Cast/elizabethd.jpg" 
+            data-cast4="Michael Caine"
+            data-cast4-image="Cast/michael.webp" 
+            data-cast5="Dimple Kapadia"
+            data-cast5-image="Cast/dimplek.webp"><img src="movie images/tenet.jpg" alt="Tenet" id="image1"></a>
+            <h3>Tenet</h3>
+        </div>
+        <div class="content-item">
+        <a href="about.html" class="movie-link" data-title="Avengers Endgame" data-image="carousal movies/avengersend.jpg" 
+                data-storyline="After the devastating events of Avengers: Infinity War (2018), the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos's actions and undo the chaos to the universe, no matter what consequences may be in store, and no matter who they face..."
+                data-trailer="https://www.youtube.com/embed/TcMBFSGVi1c"
+                data-headline="Action"
+                data-cast1="Robert Downey Jr." 
+                data-cast1-image="Cast/rdj.jpg"
+                data-cast2="Chris Evans"
+                data-cast2-image="Cast/chrisevans.jpg" 
+                data-cast3="Mark Ruffalo"
+                data-cast3-image="Cast/markruffalo.webp" 
+                data-cast4="Chris Hemsworth"
+                data-cast4-image="Cast/chrishem.webp" 
+                data-cast5="Paul Rudd"
+                data-cast5-image="Cast/paulrudd.webp"><img src="carousal movies/avengersend.jpg" alt="Avengers" width="90%"></a>
+                <h3>Avengers Endgame</h3>
+        </div>
+        <div class="content-item">
+            <a href="about.html" class="movie-link" data-title="The Matrix" data-image="movie images/matrix.jpg" 
+            data-storyline="Thomas A. Anderson is a man living two lives. By day he is an average computer programmer and by night a hacker known as Neo. Neo has always questioned his reality, but the truth is far beyond his imagination. Neo finds himself targeted by the police when he is contacted by Morpheus, a legendary computer hacker branded a terrorist by the government. As a rebel against the machines, Neo must confront the agents: super-powerful computer programs devoted to stopping Neo and the entire human rebellion."
+            data-trailer="https://www.youtube.com/embed/vKQi3bBA1y8"
+            data-headline="Thriller"
+            data-cast1="Keanu Reeves" 
+            data-cast1-image="Cast/keanu.jpg"
+            data-cast2="Laurence Fishburne"
+            data-cast2-image="Cast/laurence.webp" 
+            data-cast3="Carrie-Anne Moss"
+            data-cast3-image="Cast/carriea.jpg" 
+            data-cast4="Joe Pantoliano"
+            data-cast4-image="Cast/joep.jpg" 
+            data-cast5="Hugo Weaving"
+            data-cast5-image="Cast/hugo.jpg"><img src="movie images/matrix.jpg" alt="The Matrix" width="90%"></a>
+            <h3>The Matrix</h3>
+        </div>
+    </section>
+    <!--Content of Movies Ends-->
+
+    <!--Actor section starts-->
+    <section class="content1">
+        <div style="display: flex;">
+            <div class="div"></div>
+            <h1 style="color: white; margin-left: 13px; margin-bottom: 10px; color: rgb(255, 206, 116);">Academy Awards Winner Actors</h1>
+        </div>
+        <div class="content-item">
+            <img src="Cast/rdj.jpg" alt="Robert Downey Jr." id="image1">
+            <h3>Robert Downey Jr.</h3>
+        </div>
+        <div class="content-item">
+            <img src="Cast/christianb.jpg" alt="Christian Bale" id="image1">
+            <h3>Christian Bale</h3>
+        </div>
+        <div class="content-item">
+            <img src="Cast/michael.webp" alt="Michael Caine" id="image1">
+            <h3>Michael Caine</h3>
+        </div>
+        <div class="content-item">
+            <img src="Cast/jackiechan.jpg" alt="Jackie Chan" id="image1">
+            <h3>Jackie Chan</h3>
+        </div>
+        <div class="content-item">
+            <img src="Cast/morganf.webp" alt="Morgan Freeman" id="image1">
+            <h3>Morgan Freeman</h3>
+        </div>
+        <div class="content-item">
+            <img src="Cast/tomhanks.jpg" alt="Tom Hanks" id="image1">
+            <h3>Tom Hanks</h3>
+        </div>
+        <div class="content-item">
+            <img src="Cast/leonardo.webp" alt="Leonardo DiCaprio" id="image1">
+            <h3>Leonardo DiCaprio</h3>
+        </div>
+    </section>
+    <!--Actor section ends-->
+
+    <!--Actress section starts-->
+    <section class="content1">
+        <div style="display: flex;">
+            <div class="div"></div>
+            <h1 style="color: white; margin-left: 13px; margin-bottom: 10px; color: rgb(255, 206, 116);">Academy Awards Winner Actress</h1>
+        </div>
+        <div class="content-item">
+            <img src="Cast/brie.jpeg" alt="Brie Larson" id="image1">
+            <h3>Brie Larson</h3>
+        </div>
+        <div class="content-item">
+            <img src="Cast/cateb.webp" alt="Cate Blanchett" id="image1">
+            <h3>Cate Blanchett</h3>
+        </div>
+        <div class="content-item">
+            <img src="Cast/emmas.webp" alt="Emma Stone" id="image1">
+            <h3>Emma Stone</h3>
+        </div>
+        <div class="content-item">
+            <img src="Cast/jessica.webp" alt="Jessica Chastain" id="image1">
+            <h3>Jessica Chastain</h3>
+        </div>
+        <div class="content-item">
+            <img src="Cast/anne.webp" alt="Anne Hathaway" id="image1">
+            <h3>Anne Hathaway</h3>
+        </div>
+    </section>
+    <!--Actress section ends-->
+
+    <!--Back to top button-->
+    <a href="#" class="to-top">
+        <img src="up-arrow.png" width="116%">
+    </a>
+    <!--Back to top button ends-->
+
+    <!--Footer Start-->
+    <footer>
+
+        <div class="footer1">
+            <button type="button" id="button_signin" ><a href="index.php">Sign In for more</a></button>
+        </div>
+        <div class="footer2">
+            <a id="icons"><img src="icons8-facebook-100.png"></a>
+            <a id="icons"><img src="icons8-instagram-100.png"></i></a>
+            <a id="icons"><img src="icons8-twitter-100.png"></i></a>
+            <a id="icons"><img src="icons8-youtube-100.png"></i></a>
+        </div>
+        <div class="footer3">
+            <a id="icons" href="">Help</a>
+            <a id="icons" href="">Privacy Policy</a>
+            <a id="icons" href="">Get Our App</a>
+            <a id="icons" href="">Conditions of Use</a></br></br>
+            <a id="copyright">© 2023 by FlixHub.com, Inc.</a>
+        </div>
+
+    </footer>
+    <!--Footer Ends-->
+
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="script.js"></script>
+    
+    <!-- Script for search functionality -->
+    <script>
+        function search(){
+            let filter = document.getElementById('find').value.toUpperCase();
+
+            let movie = document.querySelectorAll('.content-item');
+
+            let t = document.getElementsByTagName('h3');
+
+            for(let i = 0; i<=t.length; i++){
+                let a = movie[i].getElementsByTagName('h3')[0];
+
+                let value = a.innerHTML || a.innerText || a.textContent;
+
+                if(value.toUpperCase().indexOf(filter) > -1){
+                    movie[i].style.display = "";
+                }
+                else{
+                    movie[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+    <!-- Script for search functionality Ends-->
+
+    <!-- Script for image slideshow -->
+    <script>
+        $(document).ready(() => {
+            let imageCache = [];
+            let imageCounter = 0;
+            let interval; // Variable to store the interval timer
+
+            // Create an array of the slide images
+            $("#slides img").each((index, img) => {
+                const image = new Image();
+                image.src = $(img).attr("src");
+                imageCache[index] = image; // Store the Image object in an array (imageCache)
+            });
+
+            // Function to start the slideshow
+            function startSlideshow() {
+                setInterval(() => {
+                    $("#slide").fadeOut(1000, () => {
+                    imageCounter = (imageCounter + 1) % imageCache.length;
+                    const nextImage = imageCache[imageCounter];
+                    $("#slide").attr("src", nextImage.src).fadeIn(1000);
+                });
+                }, 3000);
+            }
+            // Start the slideshow initially
+            startSlideshow();
+        });
+    </script>
+    <!-- Script for image slideshow ends-->
+</body>
+</html>
