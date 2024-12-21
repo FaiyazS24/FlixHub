@@ -29,6 +29,10 @@ Faiyaz Sattar
 - **PHP Version**: 7.4 or higher.
 - **Database**: MySQL for backend data storage.
 
+## Credits
+- **Icons**: [Icons8](https://icons8.com/)
+- **Images**: [Pexels](https://pexels.com/), [Unsplash](https://unsplash.com/)
+
 ## Folder Structure
 ```
 FlixHub/
