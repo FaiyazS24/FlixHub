@@ -29,7 +29,35 @@ Faiyaz Sattar
 - **PHP Version**: 7.4 or higher.
 - **Database**: MySQL for backend data storage.
 
-## Repository Structure
+## Folder Structure
 ```
-/root ├── About.html ├── Index.html ├── oscars.html ├── toppicks.html ├── css/ │ ├── About_style.css │ ├── index_style.css │ ├── oscars_style.css │ ├── toppicks.css ├── js/ │ ├── script.js ├── php/ │ ├── index.php │ ├── login.php │ ├── logout.php │ ├── register.php │ ├── signup.php │ ├── signupdb.php ├── assets/ │ ├── icons8-facebook-100.png │ ├── icons8-instagram-100.png │ ├── icons8-twitter-100.png │ ├── icons8-youtube-100.png │ ├── signupback.jpg │ ├── up-arrow.png │ ├── next.png │ ├── prev.png │ ├── logo.png ├── carousal movies/ │ ├── avengers.jpg │ ├── avengersend.jpg │ ├── gump.jpg │ ├── gumps.jpg │ ├── inception.jpg │ ├── interstellar.jpg │ ├── interstellars.jpg │ ├── kgf.jpg │ ├── kgf2s.jpg ├── movie images/ │ ├── avatar.jpg │ ├── darkknight.jpg │ ├── despicable.jpg │ ├── dragon2.jpeg │ ├── johnwick4.webp │ ├── matrix.jpg │ ├── memento.jpg │ ├── tenet.jpg │ ├── wall-e.jpg ├── Cast/ │ ├── aaronp.jpg │ ├── adamj.jpg │ ├── angelina.jpg │ ├── bradp.jpg │ ├── chrisevans.jpg │ ├── jackiechan.jpg │ ├── leonardo.webp │ ├── scarlettj.jpg │ ├── yash.png ├── Controller/ │ ├── Controller.php ├── Model/ │ ├── Model.php ├── View/ │ ├── view.php ├── views/ │ ├── dashboard.php │ ├── footer.php │ ├── header.php │ ├── login_view.php │ ├── register_view.php │ ├── user.png
-
+FlixHub/
+│
+├── About.html                # About page for the project
+├── Index.html                # Main landing page
+├── oscars.html               # Oscars winners page
+├── register.php              # User registration functionality
+├── login.php                 # User login functionality
+├── logout.php                # User logout functionality
+├── signup.php                # Signup form
+├── signupdb.php              # Signup database interaction
+├── index.php                 # Main PHP file
+│
+├── Model/                    # Application data models
+├── Controller/               # Application logic
+├── View/                     # Frontend display logic
+│
+├── styles/                   # Contains CSS files
+│   ├── About_style.css
+│   ├── index_style.css
+│   ├── oscars_style.css
+│   ├── toppicks.css
+│
+├── scripts/                  # Contains JavaScript files
+│   └── script.js
+│
+├── images/                   # All project images
+│   ├── movie images/
+│   ├── logo.png
+│   ├── signupback.jpg
+│   ├── icons (social media icons)
